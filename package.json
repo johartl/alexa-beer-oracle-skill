@@ -1,0 +1,15 @@
+{
+  "name": "beeroclock-skill",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jochen Hartl <hello@johartl.net>",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-skill-server": "git+https://github.com/johartl/alexa-skill-server.git"
+  }
+}

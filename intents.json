@@ -1,0 +1,30 @@
+{
+  "languageModel": {
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "Start",
+        "samples": [
+          "is it time for beer",
+          "is it time for a drink",
+          "is it beer o clock",
+          "should i have a drink",
+          "should we have a drink"
+        ],
+        "slots": []
+      }
+    ],
+    "invocationName": "is it time for a beer"
+  }
+}
