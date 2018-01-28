@@ -10,7 +10,11 @@ answers['de'] = ['Ja!', 'Unbedingt!', 'Auf jeden Fall', 'Natürlich!',
 
 class BeerOClockSkillServer extends AlexaSkillServer {
 
-    onStartIntentRequest(request) {
+    onLaunchRequest(request, session) {
+        return this.onStartIntentRequest(request, session);
+    }
+
+    onStartIntentRequest(request, session) {
         const [language, dialect] = request.locale.split('-');
         const localeAnswers = answers[language] || answers['en'];
         const selectedAnswer = localeAnswers[Math.floor(Math.random()*localeAnswers.length)];
