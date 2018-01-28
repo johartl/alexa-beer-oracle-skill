@@ -20,7 +20,15 @@
           "is it time for a drink",
           "is it beer o clock",
           "should i have a drink",
-          "should we have a drink"
+          "should we have a drink",
+          "should i get drunk",
+          "should we get drunk",
+          "is it time for a beer",
+          "should i have a beer",
+          "should we have a beer",
+          "time for beer",
+          "time for a drink",
+          "time for a beer"
         ],
         "slots": []
       }
