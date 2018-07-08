@@ -1,1 +1,1 @@
-Beer o'clock - Alexa Skill
+Beer Oracle - Alexa Skill

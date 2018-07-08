@@ -8,7 +8,7 @@ answers['de'] = ['Ja!', 'Unbedingt!', 'Auf jeden Fall', 'Natürlich!',
     'Zweifelsfrei!', 'Worauf wartest du noch?', 'Ich sehe nichts, was dagegen spricht!'];
 
 
-class BeerOClockSkillServer extends AlexaSkillServer {
+class BeerOracleSkillServer extends AlexaSkillServer {
 
     onLaunchRequest(request, session) {
         return this.onStartIntentRequest(request, session);
@@ -23,4 +23,4 @@ class BeerOClockSkillServer extends AlexaSkillServer {
     }
 }
 
-(new BeerOClockSkillServer()).start();
+(new BeerOracleSkillServer()).start();
